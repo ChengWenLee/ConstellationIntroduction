@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		BCDCBBEE29E96651002B88A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBBED29E96651002B88A9 /* AppDelegate.swift */; };
 		BCDCBBF029E96651002B88A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBBEF29E96651002B88A9 /* SceneDelegate.swift */; };
-		BCDCBBF229E96651002B88A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBBF129E96651002B88A9 /* ViewController.swift */; };
 		BCDCBBF529E96651002B88A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDCBBF329E96651002B88A9 /* Main.storyboard */; };
 		BCDCBBF729E96653002B88A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDCBBF629E96653002B88A9 /* Assets.xcassets */; };
 		BCDCBBFA29E96653002B88A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDCBBF829E96653002B88A9 /* LaunchScreen.storyboard */; };
+		BCDCBC0229E96673002B88A9 /* Constellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBC0129E96673002B88A9 /* Constellation.swift */; };
+		BCDCBC0429E96BEB002B88A9 /* ConstellationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBC0329E96BEB002B88A9 /* ConstellationsTableViewController.swift */; };
+		BCDCBC0629E98B41002B88A9 /* ConstellationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCBC0529E98B41002B88A9 /* ConstellationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCDCBBEA29E96651002B88A9 /* ConstellationIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstellationIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDCBBED29E96651002B88A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCDCBBEF29E96651002B88A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCDCBBF129E96651002B88A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCDCBBF429E96651002B88A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCDCBBF629E96653002B88A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDCBBF929E96653002B88A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCDCBBFB29E96653002B88A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDCBC0129E96673002B88A9 /* Constellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constellation.swift; sourceTree = "<group>"; };
+		BCDCBC0329E96BEB002B88A9 /* ConstellationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationsTableViewController.swift; sourceTree = "<group>"; };
+		BCDCBC0529E98B41002B88A9 /* ConstellationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				BCDCBBED29E96651002B88A9 /* AppDelegate.swift */,
 				BCDCBBEF29E96651002B88A9 /* SceneDelegate.swift */,
-				BCDCBBF129E96651002B88A9 /* ViewController.swift */,
+				BCDCBC0129E96673002B88A9 /* Constellation.swift */,
+				BCDCBC0329E96BEB002B88A9 /* ConstellationsTableViewController.swift */,
+				BCDCBC0529E98B41002B88A9 /* ConstellationDetailViewController.swift */,
 				BCDCBBF329E96651002B88A9 /* Main.storyboard */,
 				BCDCBBF629E96653002B88A9 /* Assets.xcassets */,
 				BCDCBBF829E96653002B88A9 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDCBBF229E96651002B88A9 /* ViewController.swift in Sources */,
+				BCDCBC0429E96BEB002B88A9 /* ConstellationsTableViewController.swift in Sources */,
+				BCDCBC0229E96673002B88A9 /* Constellation.swift in Sources */,
 				BCDCBBEE29E96651002B88A9 /* AppDelegate.swift in Sources */,
 				BCDCBBF029E96651002B88A9 /* SceneDelegate.swift in Sources */,
+				BCDCBC0629E98B41002B88A9 /* ConstellationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
